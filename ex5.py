@@ -3,7 +3,7 @@
 my_name = 'Matthew Sowers'
 my_age = 37 # not a lie
 my_height = 5 * 12 + 11 # inches
-my_weight = 420 *  # pounds
+my_weight = 420  # pounds
 my_eyes = 'Green'
 my_teeth = 'White'
 my_hair = 'Brown'
