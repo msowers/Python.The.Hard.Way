@@ -1,13 +1,14 @@
 from sys import argv
 
-script, age, height, weight = argv
-
-age = raw_input("How old are you? ")
-height = raw_input("What is your height? ")
-weight - raw_input("What is your weight? ")
-
+script, first, second, third = argv
 
 print "Your script is called:" , script
-print "Your first variable is:", age
-print "Your second variable is:", height
-print "Your third variable is:", weight
+print "Your first variable is:", first
+print "Your second variable is:", second
+print "Your third variable is:", third
+
+one = raw_input("How many examples? ")
+two = raw_input("Which example are you on? ")
+three = raw_input("How many more examples? ")
+
+print "So you have completed %s examples, you on on the %s example, and you have %s examples left." % (one, two, three)
