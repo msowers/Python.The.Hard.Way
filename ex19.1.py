@@ -17,3 +17,6 @@ number_of_games(100 + 12, 100 + 8)
 
 print "Or with variables and math"
 number_of_games(amount_installed - 10 + 10, amount_not_installed - 10 + 10)
+
+print "More math with variables"
+number_of_games(amount_installed - amount_not_installed + 1000, amount_not_installed - 100 + amount_installed)
